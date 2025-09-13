@@ -1,0 +1,16 @@
+model:
+  size: "S"
+  img_size: 40
+  patch_size: 4
+  in_channels: 7
+
+training:
+  dataset_path: "/mnt/storage/data/bigearthnet-l/bigearthnet-l"
+  dataset_csv: "/mnt/storage/data/bigearthnet-l/bigearthnet-train.csv"
+  epochs: 500
+  batch_size: 128
+  learning_rate: 0.0003
+  weight_decay: 0.05
+  weight_path: "/mnt/storage/geo-moe-mae"
+  num_workers: 4
+  save_every_n_epochs: 5

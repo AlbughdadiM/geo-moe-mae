@@ -1,0 +1,18 @@
+model:
+  size: "S"
+  img_size: 40
+  patch_size: 4
+  in_channels: 7
+  checkpoint_path: "./weights/moe_mae_bigearthnet_ls/pretrained_S_best.pth"
+  device: "mps"
+
+data:
+  dataset_path: "./sample_dataset"
+  dataset_csv: "./sample_dataset/samples.csv"
+  num_workers: 4
+  batch_size: 32
+
+eval:
+  save_reconstructions_masked: true
+  save_reconstructions_full: true
+  reconstructions_dir: "./sample_dataset/reconstruction"

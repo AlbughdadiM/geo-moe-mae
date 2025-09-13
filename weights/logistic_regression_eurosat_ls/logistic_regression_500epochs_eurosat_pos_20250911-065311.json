@@ -1,0 +1,20 @@
+{
+  "run_id": "20250911-065311",
+  "train_npz": "/mnt/storage/data/eurosat-l/x_y_train_geommlit_S_embed_pos_500epochs.npz",
+  "val_npz": null,
+  "x_shape_train": [
+    16200,
+    144
+  ],
+  "y_shape_train": [
+    16200
+  ],
+  "x_shape_val": null,
+  "y_shape_val": null,
+  "multilabel": false,
+  "feature_slice": null,
+  "n_jobs": 4,
+  "metrics": {},
+  "version": "simple-1.0",
+  "timestamp": "20250911-065311"
+}
