@@ -93,7 +93,7 @@ python eval_mae.py --config_yaml configs/eval_moe_mae.yaml
 
 ### Train classifier (BigEarthNet, multilabel)
 
-```powersehll
+```powershell
 python train_logistic_regression.py \
   --train /path/to/bigearthnet_train.npz \
   --val /path/to/bigearthnet_val.npz \
