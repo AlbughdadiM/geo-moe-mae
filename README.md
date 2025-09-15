@@ -29,8 +29,8 @@ an efficient and scalable step toward future EO foundation models.
 | Path | Type | Description |
 | --- | --- | --- |
 | `configs/` | Directory | Training/eval configs for MAE. |
-| `configs/train_mae_mmlit.yaml` | File | MAE pretraining configuration. |
-| `configs/eval_mae_mmlit.yaml` | File | MAE evaluation configuration. |
+| `configs/train_moe_mae.yaml` | File | MAE pretraining configuration. |
+| `configs/eval_moe_mae.yaml` | File | MAE evaluation configuration. |
 | `models/` | Directory | Model implementations. |
 | `models/moe_mae.py` | File | MoE-MAE Vision Transformer (PyTorch). |
 | `classification_models/` | Directory | Simple classifier models. |
