@@ -114,3 +114,19 @@ python train_logistic_regression.py \
   --multilabel false \
   --n-jobs 8
 ```
+
+## Citation
+
+To cite this work:
+
+```bibtex
+@misc{albughdadi2025lightweightmetadataawaremixtureofexpertsmasked,
+      title={Lightweight Metadata-Aware Mixture-of-Experts Masked Autoencoder for Earth Observation}, 
+      author={Mohanad Albughdadi},
+      year={2025},
+      eprint={2509.10919},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2509.10919}, 
+}
+```
