@@ -1,5 +1,7 @@
 # LightWeight Metadata-Aware Masked AutoEncoder for Earth Observation
 
+[![Hugging Face](https://img.shields.io/badge/HuggingFace-Model-blue?logo=huggingface&logoColor=white&style=for-the-badge)](https://huggingface.co/albughdadim/lightweight-metadata-aware-mixture-of-experts-mae-landsat)
+
 This repository contains the implementation of the paper `Lightweight Metadata-Aware Masked Autoencoder for Earth Observation`.
 
 > **Abstract**
